@@ -1,0 +1,17 @@
+node_modules
+local.log
+.idea
+test-results
+dist
+allure-results
+allure-report
+*.log
+.storage
+browserstack.err
+bun.lockb
+.env
+headers.json
+package-lock.json
+.vscode/
+.DS_Store
+

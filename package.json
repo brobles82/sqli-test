@@ -1,0 +1,32 @@
+{
+	"name": "SQLI",
+	"version": "1.0.0",
+	"type": "commonjs",
+	"description": "technical assessment",
+	"license": "UNLICENSED",
+	"private": true,
+	"scripts": {
+		"prebstack": "yarn clear",
+		"pretest": "yarn clear",
+		"hook": "yarn lint:fix && yarn tsc",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"tsc": "tsc -p tsconfig.json",
+		"open": "npx playwright test --ui",
+		"test": "npx playwright test"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.14.0",
+		"@faker-js/faker": "^9.2.0",
+		"@playwright/test": "^1.48.2",
+		"@types/node": "^22.9.0",
+		"@typescript-eslint/eslint-plugin": "^8.14.0",
+		"@typescript-eslint/parser": "^8.14.0",
+		"dotenv": "^16.4.5",
+		"eslint": "^9.14.0",
+		"eslint-plugin-playwright": "^2.0.1",
+		"playwright": "^1.48.2",
+		"typescript": "^5.6.3",
+		"typescript-eslint": "^8.16.0"
+	}
+}

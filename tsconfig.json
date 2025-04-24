@@ -1,0 +1,23 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+	  "target": "ES6",
+	  "strict": false,
+	  "module": "commonjs",
+	  "skipLibCheck": true,
+	  "resolveJsonModule": true,
+	  "sourceMap": false,
+	  "outDir": "dist",
+	  "baseUrl": ".",
+	  "paths": {
+		"@pages": ["src/pages/"],
+		"@api": ["src/api/"],
+		"@data": ["src/data/"],
+		"@global": ["src/global/"],
+		"@fixture": ["fixture"],
+		"@utils/*": ["src/utils/*"],
+		"@types": ["src/types/"],
+	  }
+	},
+	"exclude": ["node_modules", "dist"]
+  }
